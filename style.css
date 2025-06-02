@@ -385,12 +385,12 @@ body {
 }
 
 /* Show selected video */
-#vid1:checked ~ #folderVideos ~ .video-folder .vid1-view,
-#vid2:checked ~ #folderVideos ~ .video-folder .vid2-view,
-#vid3:checked ~ #folderVideos ~ .video-folder .vid3-view,
-#vid4:checked ~ #folderVideos ~ .video-folder .vid4-view,
-#vid5:checked ~ #folderVideos ~ .video-folder .vid5-view,
-#vid6:checked ~ #folderVideos ~ .video-folder .vid6-view {
+#vid1:checked ~ .vid1-view,
+#vid2:checked ~ .vid2-view,
+#vid3:checked ~ .vid3-view,
+#vid4:checked ~ .vid4-view,
+#vid5:checked ~ .vid5-view,
+#vid6:checked ~ .vid6-view {
   display: block;
 }
 
